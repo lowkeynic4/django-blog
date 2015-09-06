@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}
+    关于我|tenshine's blog
+{% endblock %}
+
+{% block path %}
+    当前位置:<a href = "{% url 'home'%}">首页</a>->关于我
+{% endblock %}
+
+{% block content %}
+	 <div class="archive">
+         <div id="archives">
+             <h3>
+                 关于本站
+             </h3>
+             <blockquote>
+                linux下Python web框架Django开发简易发布
+             </blockquote>
+             <h3>
+                 一个网络安全爱好者
+             </h3>
+             <blockquote>
+                 about me
+             </blockquote>
+             <h3>联系我</h3>
+             <ul>
+                <li>博客:<a href="http://www.tenshine.org">tenshine's blog</li></a>
+                <li>邮箱:lowkeynic4@gmail.com</li>
+                <li>GitHub:<a href="https://github.com/lowkeynic4">lowkeynic4</a></li>
+             </ul>
+<!-- /.blog-post -->
+         </div>
+     </div>
+    {% include "duoshuo.html" %}
+{% endblock %}
+
+{% block side %}
+	 {% include "side.html" %}
+{% endblock %}
+
+
