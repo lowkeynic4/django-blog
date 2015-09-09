@@ -42,5 +42,10 @@ http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
 * Django==1.8.4
 * Markdown==2.6.2
 
+下面是我将这个程序放在了新浪sea上，没有实名认证，所以上面有个提示
+http://tenshine.sinaapp.com
 
+以下是github地址：
+https://github.com/lowkeynic4/django-blog
+![](http://7xljat.com1.z0.glb.clouddn.com/QQ截图20150906100936.jpg)
 
