@@ -41,6 +41,8 @@ http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
 * bootstrap-admin==0.3.6
 * Django==1.8.4
 * Markdown==2.6.2
+* MySQL-python (1.2.5)
+
 
 下面是我将这个程序放在了新浪sea上，没有实名认证，所以上面有个提示
 http://tenshine.sinaapp.com
