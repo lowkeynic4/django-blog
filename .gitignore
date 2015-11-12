@@ -1,1 +1,14 @@
 .idea/
+myblog/__init__.pyc
+myblog/settings.pyc
+myblog/urls.pyc
+myblog/wsgi.pyc
+wenzhang/__init__.pyc
+wenzhang/admin.pyc
+wenzhang/migrations/0002_remove_article_count.py
+wenzhang/migrations/0002_remove_article_count.pyc
+wenzhang/models.pyc
+wenzhang/templatetags/__init__.pyc
+wenzhang/templatetags/mark.pyc
+wenzhang/urls.pyc
+wenzhang/views.pyc

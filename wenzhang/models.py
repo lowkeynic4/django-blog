@@ -8,7 +8,7 @@ class Author(models.Model):
       name = models.CharField(max_length=30)
       email = models.EmailField(blank=True)
       website = models.URLField(blank=True)
-      def __unicode__(self):
+      def __unicode__(self):    #这个有两个作用，一个是控制台操作查询的时候可以显示，二是后台添加条目显示的也是这里的字段
           return self.name
 
 class TagManager(models.Manager):
