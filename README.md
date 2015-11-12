@@ -34,15 +34,21 @@ https://github.com/tmacjx/my_site
 正则表达式查询，url.py中需要用到
 http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
 
-　　以上的资料就是写出这个blog程序的所有资料，其他就是遇到问题时去baidu&google了，在这提一点，我在写这个程序的过程中遇到的很多问题都是在stackoverflow中知道的，希望我和大家以后都多多使用。
-　　还有就是我的这个程序中的文章是我从freebuf中随便截取来的，只为有点文字，别无他用！
+以上的资料就是写出这个blog程序的所有资料，其他就是遇到问题时去baidu&google了，在这提一点，我在写这个程序的过程中遇到的很多问题都是在stackoverflow中知道的，希望我和大家以后都多多使用。
 
-　　以下就是我所用到的包
+还有就是我的这个程序中的文章是我从freebuf中随便截取来的，只为有点文字，别无他用！
+
+以下就是我所用到的包
 * bootstrap-admin==0.3.6
 * Django==1.8.4
 * Markdown==2.6.2
 * MySQL-python (1.2.5)
 
+###使用
+1. 现在链接的是mysql数据库，先在mysql中建立一个新库，然后将settings中的关于mysql的配置信息改掉就行了
+2. 如果不想使用mysql数据库，在settings中将mysql数据库的信息注释掉，然后将sqlite数据库的配置打开就行了，注释中都有写
+3. 先执行```manage.py makemigrations 和manage.py migrate```
+4. 再运行```manage.py runserver```
 
 下面是我将这个程序放在了新浪sea上，没有实名认证，所以上面有个提示
 http://tenshine.sinaapp.com

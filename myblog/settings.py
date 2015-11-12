@@ -68,6 +68,7 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
+#下面是sqlite数据库的配置
 '''
 DATABASES = {
     'default': {
@@ -76,6 +77,7 @@ DATABASES = {
     }
 }
 '''
+#下面是mysql数据库的配置
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
